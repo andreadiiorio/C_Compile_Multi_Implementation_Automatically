@@ -11,12 +11,15 @@
 //You should have received a copy of the GNU General Public License
 //along with C_Multi_Implementation_Macros_Auto.  If not, see <http://www.gnu.org/licenses/>.
 
+#ifndef IMPLEMENTATIONMULTI_H
+#define IMPLEMENTATIONMULTI_H
 
-extern char TRGT_IMPL;  //target implementation switch
-#define OFFSET 0
-#include "implementationGeneric.h"
+extern char     TRGT_IMPL;  //target implementation switch
+#define         OFFSET 0
+#include        "implementationGeneric.h"
 
-#undef OFFSET
-#define OFFSET 1 
-#include "implementationGeneric.h"
+#undef          OFFSET
+#define         OFFSET 1 
+#include        "implementationGeneric.h"
 
+#endif

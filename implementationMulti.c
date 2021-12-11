@@ -12,9 +12,9 @@
 //along with C_Multi_Implementation_Macros_Auto.  If not, see <http://www.gnu.org/licenses/>.
 
 
-#define OFFSET 0
-#include "implementationGeneric.c"
+#define     OFFSET 0
+#include    "implementationGeneric.c"
 
-#undef OFFSET
-#define OFFSET 1 
-#include "implementationGeneric.c"
+#undef      OFFSET
+#define     OFFSET 1 
+#include    "implementationGeneric.c"

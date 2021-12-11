@@ -21,3 +21,4 @@
 //generic implementation 
 int CAT(genFunc_,OFFSET) (int a);
 typedef int (*genFunc_Interf) (int); 
+
